@@ -10,7 +10,7 @@ import {
 } from '@/app/ui/skeletons';
 import CardWrapper from '@/app/ui/dashboard/cards';
 import { Metadata } from 'next';
-
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Dashboard',
 };
